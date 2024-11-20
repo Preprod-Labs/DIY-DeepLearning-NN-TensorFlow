@@ -1,10 +1,6 @@
 .venv
 pyrightconfig.json
 pyproject.toml
-images
-dataset
-dogcatclassifier.h5
 microservicesarch
-temp_cat1.jpeg
-dogcatclassifier.onnx
 __pycache__
+KerasTrainer.py

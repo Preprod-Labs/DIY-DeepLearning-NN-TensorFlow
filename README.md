@@ -3,7 +3,7 @@
 This project is a deep learning application that classifies images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras. The application features a Streamlit-based user interface for training the model, visualizing the training process, and making predictions.
 
 ---
-To learn more about the project, click [here](prompts.md)
+To Learn more about the project using your favorite LLM, click [Here](LearnWithPrompts.md)
 
 
 ## Table of Contents
@@ -25,19 +25,14 @@ To learn more about the project, click [here](prompts.md)
 ## Installation
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone https://github.com/Preprod-Labs/DIY-DeepLearning-NN-TensorFlow
    ```
 
-2. Install `conda` for dependency management:
+2. Create a virtual environment and activate it. If using Conda:
    ```
-   pip install conda
-   ```
-
-3. Create a virtual environment and activate it:
-   ```
-   conda create -n myenv -y
-   conda activate myenv
+   conda create -n *env_name* python==3.12.0 -y
+   conda activate *env_name*
    ```
 
 4. Install the required packages:
@@ -54,7 +49,7 @@ To learn more about the project, click [here](prompts.md)
 
 2. Run the Streamlit app:
    ```
-   streamlit run KerasTrainer.py
+   streamlit run app.py
    ```
 
 3. Use the Streamlit interface to:
@@ -66,7 +61,8 @@ To learn more about the project, click [here](prompts.md)
 
 ## Code Structure
 
-The main script `KerasTrainer.py` is organized into several sections:
+The main script `app.py` is organized into several sections:
+(now kept in pyfiles directory)
 
 1. **Imports and Constants**: Required libraries and global variables.
 2. **Data Loading and Preprocessing**: Functions to load and prepare image data.

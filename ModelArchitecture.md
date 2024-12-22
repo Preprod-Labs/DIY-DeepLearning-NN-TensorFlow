@@ -129,7 +129,7 @@ graph TD;
 
 2. **Run the Streamlit App**:
    ```bash
-   streamlit run KerasTrainer.py
+   streamlit run app.py
    ```
 
 3. **Configure Training Parameters**:
@@ -173,7 +173,6 @@ sample_image_path = "images/dog1.jpg"
 
 By understanding these components, you can better grasp how the model works and how to adjust it for different tasks or datasets. The visual representation using Mermaid helps to see the flow of data through the layers, making it easier to understand the architecture.
 
-Feel free to explore and modify the code to suit your needs! If you have any questions or suggestions, please open an issue or submit a pull request.
 
 Happy coding! 🚀
 

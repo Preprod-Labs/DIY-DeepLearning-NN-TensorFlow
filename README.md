@@ -42,7 +42,7 @@ To Learn more about the project using your favorite LLM, click [Here](LearnWithP
 
 ## Usage
 
-1. Prepare your dataset:
+1. Prepare your dataset ( download cats and dogs dataset from your preffered sources such as Kaggle.com ):
    - Place your training images in `dataset/training_set/training_set`
    - Place your testing images in `dataset/test_set/test_set`
    - Ensure each set has subdirectories for `cats` and `dogs`
